@@ -10,7 +10,7 @@ Color kBlueColor1 = const Color(0xff0CC0DF);
 Color kBlueColor2 = const Color(0xff1D80CC);
 Color kRedColor1 = const Color(0xffEF597A);
 Color kGreenColor1 = const Color(0xff1F9555);
-
+Color kYellow1 = const Color(0xffF7E264);
 FontWeight light = FontWeight.w300;
 FontWeight regular = FontWeight.w400;
 FontWeight medium = FontWeight.w500;

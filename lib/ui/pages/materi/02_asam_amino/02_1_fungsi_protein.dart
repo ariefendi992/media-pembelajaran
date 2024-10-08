@@ -78,7 +78,228 @@ class FungsiProteinPage extends StatelessWidget {
                     isSubSubTitle: true,
                     isTitle: false,
                     height: 1,
-                    margin: const EdgeInsets.only(top: 6),
+                    margin: const EdgeInsets.only(top: 6, bottom: 6),
+                  ),
+                  Row(
+                    children: [
+                      Flexible(
+                        flex: 3,
+                        child: RichText(
+                          textAlign: TextAlign.justify,
+                          text: TextSpan(
+                            children: [
+                              TextSpan(
+                                text: 'Merupakan protein yang dapat ',
+                                style: blackTextStyle.copyWith(
+                                  fontFamily: 'Caveat Brush',
+                                  fontSize: 14,
+                                ),
+                              ),
+                              TextSpan(
+                                text: 'berfungsi sebagai katalisator',
+                                style: blackTextStyle.copyWith(
+                                    fontFamily: 'Caveat Brush',
+                                    fontSize: 14,
+                                    backgroundColor: kGreenColor1),
+                              ),
+                              TextSpan(
+                                text:
+                                    '. Contoh glukosa oksidase yang mengkatalisis '
+                                    'glukosa menjadi asam glukonat, urikase yaitu '
+                                    'enzim yang dapat membongkar asam urat menjadi alantoin.',
+                                style: blackTextStyle.copyWith(
+                                  fontFamily: 'Caveat Brush',
+                                  fontSize: 14,
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                      ),
+                      const SizedBox(width: 10),
+                      Flexible(
+                        child: Column(
+                          children: [
+                            CImagetAsset(
+                              imageName: 'assets/images/gambar2.18.png',
+                              width: 100,
+                            )
+                          ],
+                        ),
+                      )
+                    ],
+                  ),
+                  WTitleSubtitle(
+                    title: '2) Protein Transport ',
+                    isSubSubTitle: true,
+                    isTitle: false,
+                    height: 1,
+                    margin: const EdgeInsets.only(top: 12, bottom: 6),
+                  ),
+                  Row(
+                    children: [
+                      Flexible(
+                        child: Column(
+                          children: [
+                            CImagetAsset(
+                              imageName: 'assets/images/gambar2.19.png',
+                              width: 100,
+                            )
+                          ],
+                        ),
+                      ),
+                      const SizedBox(width: 10),
+                      Flexible(
+                        flex: 2,
+                        child: RichText(
+                          textAlign: TextAlign.justify,
+                          text: TextSpan(
+                            children: [
+                              TextSpan(
+                                text: 'MProtein yang ',
+                                style: blackTextStyle.copyWith(
+                                  fontFamily: 'Caveat Brush',
+                                  fontSize: 14,
+                                ),
+                              ),
+                              TextSpan(
+                                text:
+                                    'dapat mengikat dan membawa molekul atau ion '
+                                    'yang khas dari satu organ ke organ lainnya',
+                                style: blackTextStyle.copyWith(
+                                    fontFamily: 'Caveat Brush',
+                                    fontSize: 14,
+                                    backgroundColor: kGreenColor1),
+                              ),
+                              TextSpan(
+                                text:
+                                    '. Contoh protein transport yang mudah adalah '
+                                    'mioglobin yang menyimpan dan mendistribusikan '
+                                    'oksogen ke dalam otot.',
+                                style: blackTextStyle.copyWith(
+                                  fontFamily: 'Caveat Brush',
+                                  fontSize: 14,
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
+                  WTitleSubtitle(
+                    title: '3) Protein Nutrien',
+                    isSubSubTitle: true,
+                    isTitle: false,
+                    height: 1,
+                    margin: const EdgeInsets.only(top: 12, bottom: 6),
+                  ),
+                  Row(
+                    children: [
+                      Flexible(
+                        flex: 3,
+                        child: RichText(
+                          textAlign: TextAlign.justify,
+                          text: TextSpan(
+                            children: [
+                              TextSpan(
+                                text:
+                                    'disebut juga protein penyimpanan, protein ini merupakan ',
+                                style: blackTextStyle.copyWith(
+                                  fontFamily: 'Caveat Brush',
+                                  fontSize: 14,
+                                ),
+                              ),
+                              TextSpan(
+                                text:
+                                    'cadangan makanan yang dibutuhkan untuk pertumbuhan dan perkembangan',
+                                style: blackTextStyle.copyWith(
+                                    fontFamily: 'Caveat Brush',
+                                    fontSize: 14,
+                                    backgroundColor: kYellow1),
+                              ),
+                              TextSpan(
+                                text:
+                                    ' Beberapa contoh protein ini, sering kita '
+                                    'temukan dalam kehidupan sehari-hari seperti '
+                                    'ovalbumin merupakan protein utama putih '
+                                    'telur, kasein sebagai protein utama dalam susu.',
+                                style: blackTextStyle.copyWith(
+                                  fontFamily: 'Caveat Brush',
+                                  fontSize: 14,
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                      ),
+                      const SizedBox(width: 10),
+                      Flexible(
+                        child: Column(
+                          children: [
+                            CImagetAsset(
+                              imageName: 'assets/images/gambar2.20.png',
+                              width: 100,
+                            )
+                          ],
+                        ),
+                      )
+                    ],
+                  ),
+                  WTitleSubtitle(
+                    title: '4) Protein Kontraktil',
+                    isSubSubTitle: true,
+                    isTitle: false,
+                    height: 1,
+                    margin: const EdgeInsets.only(top: 12, bottom: 6),
+                  ),
+                  Row(
+                    children: [
+                      Flexible(
+                        child: Column(
+                          children: [
+                            CImagetAsset(
+                              imageName: 'assets/images/gambar2.21.png',
+                              width: 100,
+                            )
+                          ],
+                        ),
+                      ),
+                      const SizedBox(width: 10),
+                      Flexible(
+                        flex: 2,
+                        child: RichText(
+                          textAlign: TextAlign.justify,
+                          text: TextSpan(
+                            children: [
+                              TextSpan(
+                                text: 'Merupakan golongan protein yang ',
+                                style: blackTextStyle.copyWith(
+                                  fontFamily: 'Caveat Brush',
+                                  fontSize: 14,
+                                ),
+                              ),
+                              TextSpan(
+                                text: 'berperan dalam proses gerak',
+                                style: blackTextStyle.copyWith(
+                                    fontFamily: 'Caveat Brush',
+                                    fontSize: 14,
+                                    backgroundColor: kYellow1),
+                              ),
+                              TextSpan(
+                                text:
+                                    '. Sebagai contoh misalnya; miosin, merupakan '
+                                    'unsur filamen tak bergerak dalam myofibril.',
+                                style: blackTextStyle.copyWith(
+                                  fontFamily: 'Caveat Brush',
+                                  fontSize: 14,
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                      ),
+                    ],
                   ),
                 ],
               ),
