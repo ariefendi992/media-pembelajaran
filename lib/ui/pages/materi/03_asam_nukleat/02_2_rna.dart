@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:media_pembelajaran/shared/theme.dart';
-import 'package:media_pembelajaran/ui/widgets/widget_icon.dart';
 import 'package:media_pembelajaran/ui/widgets/widget_judul_gambar.dart';
 import 'package:media_pembelajaran/ui/widgets/widget_nomor_halaman.dart';
 import 'package:media_pembelajaran/ui/widgets/widget_title_subtitle.dart';
