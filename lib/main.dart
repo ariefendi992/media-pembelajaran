@@ -6,6 +6,7 @@ import 'package:media_pembelajaran/ui/pages/daftar_materi_page.dart';
 import 'package:media_pembelajaran/ui/pages/materi/01_karbohidrat/00_karbohidrat.dart';
 import 'package:media_pembelajaran/ui/pages/materi/02_asam_amino/00_asam_amino_dan_protein.dart';
 import 'package:media_pembelajaran/ui/pages/materi/03_asam_nukleat/00_asam_nukleat.dart';
+import 'package:media_pembelajaran/ui/pages/materi/04_lipida/00_lipida.dart';
 import 'package:media_pembelajaran/ui/pages/pendahuluan_page.dart';
 import 'package:media_pembelajaran/ui/pages/splash_page.dart';
 
@@ -37,6 +38,7 @@ class MyApp extends StatelessWidget {
           '/karbohidrat': (context) => KarbohidratPage(),
           '/asamAmino': (context) => AsamAminoPage(),
           '/asamNukleat': (context) => AsamNukleatPage(),
+          '/lipida': (context) => LipidaPage(),
         },
       ),
     );

@@ -1,23 +1,18 @@
 import 'package:flutter/material.dart';
 import 'package:media_pembelajaran/shared/theme.dart';
-import 'package:media_pembelajaran/ui/pages/materi/03_asam_nukleat/01_0_fungsi_asam_nukleat.dart';
-import 'package:media_pembelajaran/ui/pages/materi/03_asam_nukleat/02_0_struktur_asam_nukleat.dart';
-import 'package:media_pembelajaran/ui/pages/materi/03_asam_nukleat/02_1_dna.dart';
-import 'package:media_pembelajaran/ui/pages/materi/03_asam_nukleat/02_2_rna.dart';
-import 'package:media_pembelajaran/ui/pages/materi/03_asam_nukleat/03_games.dart';
 
-class MainAsamNukleatPage extends StatefulWidget {
+class MainLipaPage extends StatefulWidget {
   final int? initialPage;
-  const MainAsamNukleatPage({
+  const MainLipaPage({
     super.key,
     this.initialPage = 0,
   });
 
   @override
-  State<MainAsamNukleatPage> createState() => _MainAsamNukleatPageState();
+  State<MainLipaPage> createState() => _MainLipaPageState();
 }
 
-class _MainAsamNukleatPageState extends State<MainAsamNukleatPage> {
+class _MainLipaPageState extends State<MainLipaPage> {
   late PageController pageController = PageController();
 
   @override
@@ -77,13 +72,7 @@ class _MainAsamNukleatPageState extends State<MainAsamNukleatPage> {
       body: PageView(
         controller: pageController,
         physics: const NeverScrollableScrollPhysics(),
-        children: [
-          FungsiAsamNukleat0(),
-          StrukturAsamNukleat0(),
-          DnaPage(),
-          RNAPage(),
-          GamesAsamNukleat(),
-        ],
+        children: [],
       ),
     );
   }

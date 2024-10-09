@@ -57,7 +57,9 @@ class DaftarMateriPage extends StatelessWidget {
                         margin: EdgeInsets.only(top: 12),
                         title: 'D. Lipida',
                         nomorHalaman: '28',
-                        onTap: () {},
+                        onTap: () {
+                          Navigator.pushNamed(context, '/lipida');
+                        },
                       ),
                     ],
                   ),
