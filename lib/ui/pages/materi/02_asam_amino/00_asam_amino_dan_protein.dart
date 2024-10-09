@@ -190,10 +190,23 @@ class AsamAminoPage extends StatelessWidget {
                                       isTitle: false,
                                     ),
                                   ),
-                                  WTitleSubtitle(
-                                    title: 'c. Denaturasi Protein',
-                                    isTitle: false,
-                                    height: 1.25,
+                                  InkWell(
+                                    onTap: () {
+                                      Navigator.push(
+                                        context,
+                                        MaterialPageRoute(
+                                          builder: (context) =>
+                                              MainAsamAminoPage(
+                                            initialPage: 6,
+                                          ),
+                                        ),
+                                      );
+                                    },
+                                    child: WTitleSubtitle(
+                                      title: 'c. Denaturasi Protein',
+                                      isTitle: false,
+                                      height: 1.25,
+                                    ),
                                   ),
                                 ],
                               ),

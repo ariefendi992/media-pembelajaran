@@ -49,7 +49,9 @@ class DaftarMateriPage extends StatelessWidget {
                         margin: EdgeInsets.only(top: 12),
                         title: 'C. Asam Nukleat',
                         nomorHalaman: '23',
-                        onTap: () {},
+                        onTap: () {
+                          Navigator.pushNamed(context, '/asamNukleat');
+                        },
                       ),
                       WidgetDaftarMateri(
                         margin: EdgeInsets.only(top: 12),

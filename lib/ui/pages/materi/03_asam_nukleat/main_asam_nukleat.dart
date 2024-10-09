@@ -1,25 +1,19 @@
 import 'package:flutter/material.dart';
 import 'package:media_pembelajaran/shared/theme.dart';
-import 'package:media_pembelajaran/ui/pages/materi/02_asam_amino/01_0_struktur_asam_amino.dart';
-import 'package:media_pembelajaran/ui/pages/materi/02_asam_amino/01_1_klasifikasi_asam_amino.dart';
-import 'package:media_pembelajaran/ui/pages/materi/02_asam_amino/01_2_klasifikasi_asam_amino.dart';
-import 'package:media_pembelajaran/ui/pages/materi/02_asam_amino/01_3_stereoisomer_asam_amino.dart';
-import 'package:media_pembelajaran/ui/pages/materi/02_asam_amino/02_0_struktur_protein.dart';
-import 'package:media_pembelajaran/ui/pages/materi/02_asam_amino/02_1_fungsi_protein.dart';
-import 'package:media_pembelajaran/ui/pages/materi/02_asam_amino/02_2_denaturasi_protein.dart';
+import 'package:media_pembelajaran/ui/pages/materi/03_asam_nukleat/01_0_fungsi_asam_nukleat.dart';
 
-class MainAsamAminoPage extends StatefulWidget {
+class MainAsamNukleatPage extends StatefulWidget {
   final int? initialPage;
-  const MainAsamAminoPage({
+  const MainAsamNukleatPage({
     super.key,
     this.initialPage = 0,
   });
 
   @override
-  State<MainAsamAminoPage> createState() => _MainAsamAminoPageState();
+  State<MainAsamNukleatPage> createState() => _MainAsamNukleatPageState();
 }
 
-class _MainAsamAminoPageState extends State<MainAsamAminoPage> {
+class _MainAsamNukleatPageState extends State<MainAsamNukleatPage> {
   late PageController pageController = PageController();
 
   @override
@@ -41,7 +35,7 @@ class _MainAsamAminoPageState extends State<MainAsamAminoPage> {
         preferredSize: Size.fromHeight(40),
         child: AppBar(
           title: Text(
-            'ASAM AMINO & PROTEIN',
+            'ASAM NUKLEAT',
             style: blackTextStyle.copyWith(
               fontSize: 16,
               fontWeight: bold,
@@ -80,13 +74,7 @@ class _MainAsamAminoPageState extends State<MainAsamAminoPage> {
         controller: pageController,
         physics: const NeverScrollableScrollPhysics(),
         children: [
-          StrukturAsamAminoPage(),
-          KlasifikasiAsamAminoPage(),
-          KlasifikasiAsamAminoPage2(),
-          StereoisomerAsamAminoPage(),
-          StrukturProteinPage(),
-          FungsiProteinPage(),
-          DenaturasiProteinPage(),
+          FungsiAsamNukleat0(),
         ],
       ),
     );
