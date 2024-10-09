@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:media_pembelajaran/shared/theme.dart';
-import 'package:media_pembelajaran/ui/pages/materi/02_asam_amino/main_asam_amino_page.dart';
 import 'package:media_pembelajaran/ui/pages/materi/03_asam_nukleat/main_asam_nukleat.dart';
 import 'package:media_pembelajaran/ui/widgets/widget_button_next_back.dart';
 import 'package:media_pembelajaran/ui/widgets/widget_icon.dart';
@@ -59,8 +58,8 @@ class AsamNukleatPage extends StatelessWidget {
                                 Navigator.push(
                                   context,
                                   MaterialPageRoute(
-                                    builder: (context) => MainAsamAminoPage(
-                                      initialPage: 0,
+                                    builder: (context) => MainAsamNukleatPage(
+                                      initialPage: 1,
                                     ),
                                   ),
                                 );
@@ -75,8 +74,8 @@ class AsamNukleatPage extends StatelessWidget {
                                 Navigator.push(
                                   context,
                                   MaterialPageRoute(
-                                    builder: (context) => MainAsamAminoPage(
-                                      initialPage: 0,
+                                    builder: (context) => MainAsamNukleatPage(
+                                      initialPage: 1,
                                     ),
                                   ),
                                 );
