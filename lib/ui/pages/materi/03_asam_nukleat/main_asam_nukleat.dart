@@ -3,6 +3,7 @@ import 'package:media_pembelajaran/shared/theme.dart';
 import 'package:media_pembelajaran/ui/pages/materi/03_asam_nukleat/01_0_fungsi_asam_nukleat.dart';
 import 'package:media_pembelajaran/ui/pages/materi/03_asam_nukleat/02_0_struktur_asam_nukleat.dart';
 import 'package:media_pembelajaran/ui/pages/materi/03_asam_nukleat/02_1_dna.dart';
+import 'package:media_pembelajaran/ui/pages/materi/03_asam_nukleat/02_2_rna.dart';
 
 class MainAsamNukleatPage extends StatefulWidget {
   final int? initialPage;
@@ -79,6 +80,7 @@ class _MainAsamNukleatPageState extends State<MainAsamNukleatPage> {
           FungsiAsamNukleat0(),
           StrukturAsamNukleat0(),
           DnaPage(),
+          RNAPage(),
         ],
       ),
     );

@@ -24,3 +24,5 @@ TextStyle blackTextStyle = TextStyle(color: kBlackColor2);
 
 double defaultPadding = 18;
 double defaultRadius = 18;
+
+String caveatBrush = 'Caveat Brush';
