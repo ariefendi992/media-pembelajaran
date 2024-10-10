@@ -7,6 +7,7 @@ import 'package:media_pembelajaran/ui/pages/materi/04_lipida/03_1_lipida_sederha
 import 'package:media_pembelajaran/ui/pages/materi/04_lipida/03_2_Fosfolipid.dart';
 import 'package:media_pembelajaran/ui/pages/materi/04_lipida/03_3_glikolipid.dart';
 import 'package:media_pembelajaran/ui/pages/materi/04_lipida/04_0_fungsi_lipida.dart';
+import 'package:media_pembelajaran/ui/pages/materi/04_lipida/05_0_reaksi_pada_lipida.dart';
 
 class MainLipidaPage extends StatefulWidget {
   final int? initialPage;
@@ -87,6 +88,7 @@ class _MainLipidaPageState extends State<MainLipidaPage> {
           FosfolipidPage(),
           GlikolipidPage(),
           FungsiLipidaPage(),
+          ReaksiPadaLipidaPage(),
         ],
       ),
     );

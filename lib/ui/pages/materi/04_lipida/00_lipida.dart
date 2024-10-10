@@ -107,7 +107,7 @@ class LipidaPage extends StatelessWidget {
                                   context,
                                   MaterialPageRoute(
                                     builder: (context) => MainLipidaPage(
-                                      initialPage: 6,
+                                      initialPage: 7,
                                     ),
                                   ),
                                 );
