@@ -10,6 +10,7 @@ Color kBlueColor1 = const Color(0xff0CC0DF);
 Color kBlueColor2 = const Color(0xff1D80CC);
 Color kRedColor1 = const Color(0xffEF597A);
 Color kGreenColor1 = const Color(0xff1F9555);
+Color kGreenColor2 = const Color(0xff96E153);
 Color kYellow1 = const Color(0xffF7E264);
 Color kOrangeColor1 = const Color(0xffF0851D);
 

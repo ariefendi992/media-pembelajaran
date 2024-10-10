@@ -5,6 +5,7 @@ import 'package:media_pembelajaran/ui/pages/materi/04_lipida/02_0_asam_lemak.dar
 import 'package:media_pembelajaran/ui/pages/materi/04_lipida/03_0_klasifikasi_lipida.dart';
 import 'package:media_pembelajaran/ui/pages/materi/04_lipida/03_1_lipida_sederhana.dart';
 import 'package:media_pembelajaran/ui/pages/materi/04_lipida/03_2_Fosfolipid.dart';
+import 'package:media_pembelajaran/ui/pages/materi/04_lipida/03_3_glikolipid.dart';
 
 class MainLipidaPage extends StatefulWidget {
   final int? initialPage;
@@ -83,6 +84,7 @@ class _MainLipidaPageState extends State<MainLipidaPage> {
           KlasifikasiLipidaPage(),
           LipidaSederhanaPage(),
           FosfolipidPage(),
+          GlikolipidPage(),
         ],
       ),
     );
