@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:media_pembelajaran/shared/theme.dart';
-import 'package:media_pembelajaran/ui/pages/materi/03_asam_nukleat/main_asam_nukleat.dart';
 import 'package:media_pembelajaran/ui/pages/materi/04_lipida/main_lipida.dart';
 import 'package:media_pembelajaran/ui/widgets/widget_button_next_back.dart';
 import 'package:media_pembelajaran/ui/widgets/widget_icon.dart';
@@ -92,7 +91,7 @@ class LipidaPage extends StatelessWidget {
                                   context,
                                   MaterialPageRoute(
                                     builder: (context) => MainLipidaPage(
-                                      initialPage: 2,
+                                      initialPage: 6,
                                     ),
                                   ),
                                 );
@@ -107,8 +106,8 @@ class LipidaPage extends StatelessWidget {
                                 Navigator.push(
                                   context,
                                   MaterialPageRoute(
-                                    builder: (context) => MainAsamNukleatPage(
-                                      initialPage: 1,
+                                    builder: (context) => MainLipidaPage(
+                                      initialPage: 6,
                                     ),
                                   ),
                                 );

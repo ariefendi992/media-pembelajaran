@@ -8,14 +8,17 @@ class WParagraf extends StatelessWidget {
   final TextAlign textAlign;
   final bool textIndent;
   final String fontFamily;
-  const WParagraf(
-      {super.key,
-      required this.teks,
-      this.fontSize = 14,
-      this.textHeight = 1,
-      this.textAlign = TextAlign.justify,
-      this.textIndent = true,
-      this.fontFamily = 'Caveat Brush'});
+  final Color backgroundColor;
+  const WParagraf({
+    super.key,
+    required this.teks,
+    this.fontSize = 14,
+    this.textHeight = 1,
+    this.textAlign = TextAlign.justify,
+    this.textIndent = true,
+    this.fontFamily = 'Caveat Brush',
+    this.backgroundColor = Colors.transparent,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -30,6 +33,7 @@ class WParagraf extends StatelessWidget {
               fontSize: fontSize,
               height: textHeight,
               fontFamily: fontFamily,
+              backgroundColor: backgroundColor,
             ),
           ),
         ],
