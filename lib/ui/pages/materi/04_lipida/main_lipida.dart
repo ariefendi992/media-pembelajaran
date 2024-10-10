@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:media_pembelajaran/shared/theme.dart';
 import 'package:media_pembelajaran/ui/pages/materi/04_lipida/01_0_pengertian_lipida.dart';
+import 'package:media_pembelajaran/ui/pages/materi/04_lipida/02_0_asam_lemak.dart';
 
 class MainLipidaPage extends StatefulWidget {
   final int? initialPage;
@@ -75,6 +76,7 @@ class _MainLipidaPageState extends State<MainLipidaPage> {
         physics: const NeverScrollableScrollPhysics(),
         children: [
           PengertianLipida0(),
+          AsamLemakPage(),
         ],
       ),
     );

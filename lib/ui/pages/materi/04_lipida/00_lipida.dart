@@ -75,8 +75,8 @@ class LipidaPage extends StatelessWidget {
                                 Navigator.push(
                                   context,
                                   MaterialPageRoute(
-                                    builder: (context) => MainAsamNukleatPage(
-                                      initialPage: 1,
+                                    builder: (context) => MainLipidaPage(
+                                      initialPage: 0,
                                     ),
                                   ),
                                 );
