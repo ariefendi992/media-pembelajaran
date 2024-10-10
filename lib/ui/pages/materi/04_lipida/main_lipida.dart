@@ -1,18 +1,19 @@
 import 'package:flutter/material.dart';
 import 'package:media_pembelajaran/shared/theme.dart';
+import 'package:media_pembelajaran/ui/pages/materi/04_lipida/01_0_pengertian_lipida.dart';
 
-class MainLipaPage extends StatefulWidget {
+class MainLipidaPage extends StatefulWidget {
   final int? initialPage;
-  const MainLipaPage({
+  const MainLipidaPage({
     super.key,
     this.initialPage = 0,
   });
 
   @override
-  State<MainLipaPage> createState() => _MainLipaPageState();
+  State<MainLipidaPage> createState() => _MainLipidaPageState();
 }
 
-class _MainLipaPageState extends State<MainLipaPage> {
+class _MainLipidaPageState extends State<MainLipidaPage> {
   late PageController pageController = PageController();
 
   @override
@@ -72,7 +73,9 @@ class _MainLipaPageState extends State<MainLipaPage> {
       body: PageView(
         controller: pageController,
         physics: const NeverScrollableScrollPhysics(),
-        children: [],
+        children: [
+          PengertianLipida0(),
+        ],
       ),
     );
   }
