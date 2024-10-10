@@ -26,3 +26,6 @@ double defaultPadding = 18;
 double defaultRadius = 18;
 
 String caveatBrush = 'Caveat Brush';
+
+TextAlign justify = TextAlign.justify;
+TextAlign center = TextAlign.center;

@@ -4,6 +4,7 @@ import 'package:media_pembelajaran/ui/pages/materi/04_lipida/01_0_pengertian_lip
 import 'package:media_pembelajaran/ui/pages/materi/04_lipida/02_0_asam_lemak.dart';
 import 'package:media_pembelajaran/ui/pages/materi/04_lipida/03_0_klasifikasi_lipida.dart';
 import 'package:media_pembelajaran/ui/pages/materi/04_lipida/03_1_lipida_sederhana.dart';
+import 'package:media_pembelajaran/ui/pages/materi/04_lipida/03_2_Fosfolipid.dart';
 
 class MainLipidaPage extends StatefulWidget {
   final int? initialPage;
@@ -38,7 +39,7 @@ class _MainLipidaPageState extends State<MainLipidaPage> {
         preferredSize: Size.fromHeight(40),
         child: AppBar(
           title: Text(
-            'ASAM NUKLEAT',
+            'LIPIDA',
             style: blackTextStyle.copyWith(
               fontSize: 16,
               fontWeight: bold,
@@ -81,6 +82,7 @@ class _MainLipidaPageState extends State<MainLipidaPage> {
           AsamLemakPage(),
           KlasifikasiLipidaPage(),
           LipidaSederhanaPage(),
+          FosfolipidPage(),
         ],
       ),
     );
