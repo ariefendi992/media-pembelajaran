@@ -25,8 +25,11 @@ class WidgetDaftarMateri extends StatelessWidget {
           children: [
             Text(
               '${title}',
-              style:
-                  blackTextStyle.copyWith(fontSize: 24, fontWeight: semiBold),
+              style: blackTextStyle.copyWith(
+                fontSize: 26,
+                // fontWeight: semiBold,
+                fontFamily: caveatBrush,
+              ),
             ),
             Container(
               // padding: EdgeInsets.symmetric(horizontal: 2, vertical: 2),
@@ -37,8 +40,9 @@ class WidgetDaftarMateri extends StatelessWidget {
               child: Text(
                 '${nomorHalaman}',
                 style: blackTextStyle.copyWith(
-                  fontSize: 20,
-                  fontWeight: medium,
+                  fontSize: 24,
+                  fontFamily: caveatBrush,
+                  // fontWeight: medium,
                 ),
               ),
             )

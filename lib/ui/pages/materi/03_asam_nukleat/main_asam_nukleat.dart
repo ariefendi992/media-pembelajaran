@@ -41,8 +41,9 @@ class _MainAsamNukleatPageState extends State<MainAsamNukleatPage> {
           title: Text(
             'ASAM NUKLEAT',
             style: blackTextStyle.copyWith(
-              fontSize: 16,
-              fontWeight: bold,
+              fontSize: 22,
+              fontFamily: caveatBrush,
+              letterSpacing: 1.2,
             ),
           ),
           automaticallyImplyLeading: false,

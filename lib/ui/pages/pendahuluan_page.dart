@@ -26,8 +26,9 @@ class PendahuluanPage extends StatelessWidget {
                         'PENDAHULUAN',
                         style: blackTextStyle.copyWith(
                           color: kBlackColor2,
-                          fontSize: 24,
-                          fontWeight: bold,
+                          fontSize: 26,
+                          // fontWeight: bold,
+                          fontFamily: caveatBrush,
                         ),
                       ),
                       const SizedBox(height: 16),

@@ -12,7 +12,7 @@ class WSubMateri extends StatelessWidget {
     required this.title,
     required this.onTap,
     this.margin = EdgeInsets.zero,
-    this.fontSize = 20,
+    this.fontSize = 24,
     this.fontWeight = FontWeight.w500,
   });
 
@@ -27,7 +27,8 @@ class WSubMateri extends StatelessWidget {
           style: blackTextStyle.copyWith(
             color: kBlackColor2,
             fontSize: fontSize,
-            fontWeight: fontWeight,
+            // fontWeight: fontWeight,
+            fontFamily: caveatBrush,
           ),
         ),
       ),

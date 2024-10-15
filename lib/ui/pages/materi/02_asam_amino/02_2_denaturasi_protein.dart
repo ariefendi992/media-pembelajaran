@@ -285,6 +285,7 @@ class DenaturasiProteinPage extends StatelessWidget {
                       ),
                     ],
                   ),
+                  
                 ],
               ),
             ),

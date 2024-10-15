@@ -41,13 +41,15 @@ class _MainKarbohidratPageState extends State<MainKarbohidratPage> {
     return Scaffold(
       backgroundColor: kBgPrimaryColor,
       appBar: PreferredSize(
-        preferredSize: Size.fromHeight(40),
+        preferredSize: Size.fromHeight(55),
         child: AppBar(
           title: Text(
             'KARBOHIDRAT',
             style: blackTextStyle.copyWith(
-              fontSize: 16,
-              fontWeight: bold,
+              fontSize: 22,
+              // fontWeight: bold,
+              fontFamily: caveatBrush,
+              letterSpacing: 1.2,
             ),
           ),
           automaticallyImplyLeading: false,

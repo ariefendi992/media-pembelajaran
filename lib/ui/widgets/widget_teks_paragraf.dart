@@ -12,7 +12,7 @@ class WParagraf extends StatelessWidget {
   const WParagraf({
     super.key,
     required this.teks,
-    this.fontSize = 14,
+    this.fontSize = 16,
     this.textHeight = 1,
     this.textAlign = TextAlign.justify,
     this.textIndent = true,

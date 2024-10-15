@@ -7,6 +7,7 @@ import 'package:media_pembelajaran/ui/pages/materi/02_asam_amino/01_3_stereoisom
 import 'package:media_pembelajaran/ui/pages/materi/02_asam_amino/02_0_struktur_protein.dart';
 import 'package:media_pembelajaran/ui/pages/materi/02_asam_amino/02_1_fungsi_protein.dart';
 import 'package:media_pembelajaran/ui/pages/materi/02_asam_amino/02_2_denaturasi_protein.dart';
+import 'package:media_pembelajaran/ui/pages/materi/02_asam_amino/02_3_latihan.dart';
 
 class MainAsamAminoPage extends StatefulWidget {
   final int? initialPage;
@@ -43,8 +44,9 @@ class _MainAsamAminoPageState extends State<MainAsamAminoPage> {
           title: Text(
             'ASAM AMINO & PROTEIN',
             style: blackTextStyle.copyWith(
-              fontSize: 16,
-              fontWeight: bold,
+              fontSize: 22,
+              fontFamily: caveatBrush,
+              letterSpacing: 1.2,
             ),
           ),
           automaticallyImplyLeading: false,
@@ -87,6 +89,8 @@ class _MainAsamAminoPageState extends State<MainAsamAminoPage> {
           StrukturProteinPage(),
           FungsiProteinPage(),
           DenaturasiProteinPage(),
+          LatihanAsamAminoPage(),
+          // GamesAsamAmino2(),
         ],
       ),
     );

@@ -8,6 +8,7 @@ import 'package:media_pembelajaran/ui/pages/materi/04_lipida/03_2_Fosfolipid.dar
 import 'package:media_pembelajaran/ui/pages/materi/04_lipida/03_3_glikolipid.dart';
 import 'package:media_pembelajaran/ui/pages/materi/04_lipida/04_0_fungsi_lipida.dart';
 import 'package:media_pembelajaran/ui/pages/materi/04_lipida/05_0_reaksi_pada_lipida.dart';
+import 'package:media_pembelajaran/ui/pages/materi/04_lipida/05_1_reaksi_hidrolisis_lemak.dart';
 
 class MainLipidaPage extends StatefulWidget {
   final int? initialPage;
@@ -44,8 +45,9 @@ class _MainLipidaPageState extends State<MainLipidaPage> {
           title: Text(
             'LIPIDA',
             style: blackTextStyle.copyWith(
-              fontSize: 16,
-              fontWeight: bold,
+              fontSize: 22,
+              fontFamily: caveatBrush,
+              letterSpacing: 1.2,
             ),
           ),
           automaticallyImplyLeading: false,
@@ -89,6 +91,7 @@ class _MainLipidaPageState extends State<MainLipidaPage> {
           GlikolipidPage(),
           FungsiLipidaPage(),
           ReaksiPadaLipidaPage(),
+          ReaksiHidrolisisLemakPage(),
         ],
       ),
     );

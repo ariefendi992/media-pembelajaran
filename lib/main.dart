@@ -1,10 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:media_pembelajaran/cubit/boolean_cubit.dart';
+import 'package:media_pembelajaran/cubit/jawaban_cubit.dart';
+import 'package:media_pembelajaran/cubit/score_cubit.dart';
 import 'package:media_pembelajaran/shared/theme.dart';
 import 'package:media_pembelajaran/ui/pages/daftar_materi_page.dart';
 import 'package:media_pembelajaran/ui/pages/materi/01_karbohidrat/00_karbohidrat.dart';
 import 'package:media_pembelajaran/ui/pages/materi/02_asam_amino/00_asam_amino_dan_protein.dart';
+import 'package:media_pembelajaran/ui/pages/materi/02_asam_amino/games_asam_02.dart';
 import 'package:media_pembelajaran/ui/pages/materi/03_asam_nukleat/00_asam_nukleat.dart';
 import 'package:media_pembelajaran/ui/pages/materi/04_lipida/00_lipida.dart';
 import 'package:media_pembelajaran/ui/pages/pendahuluan_page.dart';
@@ -22,6 +25,8 @@ class MyApp extends StatelessWidget {
     return MultiBlocProvider(
       providers: [
         BlocProvider(create: (context) => BooleanCubit()),
+        BlocProvider(create: (context) => JawabanCubit()),
+        BlocProvider(create: (context) => ScoreCubit()),
       ],
       child: MaterialApp(
         title: 'App Media Pembelajaran',
@@ -39,6 +44,7 @@ class MyApp extends StatelessWidget {
           '/asamAmino': (context) => AsamAminoPage(),
           '/asamNukleat': (context) => AsamNukleatPage(),
           '/lipida': (context) => LipidaPage(),
+          '/gameAsamAminoIdentifikasi': (context) => GamesAsamAmino2(),
         },
       ),
     );

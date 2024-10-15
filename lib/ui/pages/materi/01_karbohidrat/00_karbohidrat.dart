@@ -30,8 +30,10 @@ class KarbohidratPage extends StatelessWidget {
                           fontSize: 28,
                           letterSpacing: 1.2,
                           fontWeight: bold,
+                          fontFamily: caveatBrush,
                         ),
                       ),
+                      const SizedBox(height: 16),
                       Container(
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
@@ -116,10 +118,12 @@ class KarbohidratPage extends StatelessWidget {
                             Text(
                               'Capaian Pembelajaran',
                               style: blackTextStyle.copyWith(
-                                  color: kBlackColor2,
-                                  fontSize: 26,
-                                  fontWeight: bold,
-                                  height: 1),
+                                color: kBlackColor2,
+                                fontSize: 28,
+                                fontWeight: bold,
+                                fontFamily: caveatBrush,
+                                height: 1,
+                              ),
                             ),
                             SizedBox(height: 12),
                             Container(
@@ -147,8 +151,9 @@ class KarbohidratPage extends StatelessWidget {
                                     'Mampu menjelaskan struktur, golongan  dan fungsi karbohidrat',
                                     textAlign: TextAlign.center,
                                     style: blackTextStyle.copyWith(
-                                      fontSize: 18,
+                                      fontSize: 20,
                                       fontWeight: medium,
+                                      fontFamily: caveatBrush,
                                     ),
                                   ),
                                 ],

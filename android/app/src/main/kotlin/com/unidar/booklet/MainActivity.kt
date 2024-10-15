@@ -1,4 +1,4 @@
-package com.example.media_pembelajaran
+package com.unidar.booklet
 
 import io.flutter.embedding.android.FlutterActivity
 

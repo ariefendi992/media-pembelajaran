@@ -125,8 +125,9 @@ class LipidaPage extends StatelessWidget {
                                     'Capaian Pembelajaran',
                                     style: blackTextStyle.copyWith(
                                         color: kBlackColor2,
-                                        fontSize: 26,
-                                        fontWeight: bold,
+                                        fontSize: 28,
+                                        // fontWeight: bold,
+                                        fontFamily: caveatBrush,
                                         height: 1),
                                   ),
                                   SizedBox(height: 12),

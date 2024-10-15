@@ -21,8 +21,9 @@ class DaftarMateriPage extends StatelessWidget {
                   'DAFTAR MATERI',
                   style: blackTextStyle.copyWith(
                     fontWeight: bold,
-                    fontSize: 28,
+                    fontSize: 32,
                     color: kBlackColor2,
+                    fontFamily: caveatBrush,
                   ),
                 ),
                 Container(

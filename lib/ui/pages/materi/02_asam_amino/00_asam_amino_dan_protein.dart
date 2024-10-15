@@ -23,6 +23,7 @@ class AsamAminoPage extends StatelessWidget {
                   child: Column(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
+                      const SizedBox(height: 16),
                       Text(
                         'B. ASAM AMINO & PROTEIN',
                         style: blackTextStyle.copyWith(
@@ -215,16 +216,17 @@ class AsamAminoPage extends StatelessWidget {
                         ),
                       ),
                       Container(
-                        margin: EdgeInsets.only(top: 20),
+                        margin: EdgeInsets.only(top: 12),
                         child: Column(
                           children: [
                             Text(
                               'Capaian Pembelajaran',
                               style: blackTextStyle.copyWith(
-                                  color: kBlackColor2,
-                                  fontSize: 26,
-                                  fontWeight: bold,
-                                  height: 1),
+                                color: kBlackColor2,
+                                fontSize: 26,
+                                height: 1,
+                                fontFamily: caveatBrush,
+                              ),
                             ),
                             SizedBox(height: 12),
                             Container(
@@ -255,9 +257,8 @@ class AsamAminoPage extends StatelessWidget {
                                       Text(
                                         '1.',
                                         style: blackTextStyle.copyWith(
-                                            fontFamily: 'Roboto',
-                                            fontSize: 16,
-                                            fontWeight: semiBold,
+                                            fontFamily: caveatBrush,
+                                            fontSize: 20,
                                             height: 1.2),
                                       ),
                                       const SizedBox(width: 6),
@@ -265,9 +266,8 @@ class AsamAminoPage extends StatelessWidget {
                                         child: Text(
                                           'Menjelaskan Struktur asam amino dan polipeptida',
                                           style: blackTextStyle.copyWith(
-                                              fontFamily: 'Roboto',
-                                              fontSize: 16,
-                                              fontWeight: semiBold,
+                                              fontFamily: caveatBrush,
+                                              fontSize: 20,
                                               height: 1.2),
                                           textAlign: TextAlign.left,
                                         ),
@@ -281,9 +281,8 @@ class AsamAminoPage extends StatelessWidget {
                                       Text(
                                         '2.',
                                         style: blackTextStyle.copyWith(
-                                            fontFamily: 'Roboto',
-                                            fontSize: 16,
-                                            fontWeight: semiBold,
+                                            fontFamily: caveatBrush,
+                                            fontSize: 20,
                                             height: 1.2),
                                       ),
                                       const SizedBox(width: 6),
@@ -291,9 +290,8 @@ class AsamAminoPage extends StatelessWidget {
                                         child: Text(
                                           'Menjelaskan Struktur Protein dan Fungsinya',
                                           style: blackTextStyle.copyWith(
-                                              fontFamily: 'Roboto',
-                                              fontSize: 16,
-                                              fontWeight: semiBold,
+                                              fontFamily: caveatBrush,
+                                              fontSize: 20,
                                               height: 1.2),
                                           textAlign: TextAlign.left,
                                         ),
@@ -308,7 +306,7 @@ class AsamAminoPage extends StatelessWidget {
                       ),
                       Container(
                         width: double.infinity,
-                        margin: EdgeInsets.only(top: 44, bottom: 32),
+                        margin: EdgeInsets.only(top: 20, bottom: 32),
                         child: Stack(
                           children: [
                             CImagetAsset(
@@ -332,7 +330,8 @@ class AsamAminoPage extends StatelessWidget {
                         },
                         icon: Icons.arrow_back_ios,
                         postitionCenter: true,
-                      )
+                      ),
+                      const SizedBox(height: 40),
                     ],
                   ),
                 ),
